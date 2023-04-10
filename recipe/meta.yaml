@@ -1,5 +1,5 @@
 {% set name = "burau" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/burau-{{ version }}.tar.gz
-  sha256: 5fdca2686f6e73a65fed9ed9805d14a00cf4ae66febe95a1203ddbafb268cadb
+  sha256: 63c2f3eb6a98422fea49166bb4ab0d91b713ccb4b6217aeea9a68cb081aae586
 
 build:
   number: 0
